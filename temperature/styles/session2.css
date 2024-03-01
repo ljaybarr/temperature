@@ -1,0 +1,16 @@
+body{
+    font-family: arial;
+}
+
+ol li{
+    background-color: #dedede;
+    width: 50%;
+    padding: 0.5rem;
+
+}
+.cart-btn{
+    background-color: blue;
+    padding: 0.5rem;
+    border: none;
+    font-size: 20px;
+}

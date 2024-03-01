@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+
+    <h2>Hello world</h2>
+    <script>
+        //alert("Hello world!");
+    </script>
+
+    <h2>Variables</h2>
+    <script>
+        var number;// declaration var
+        number = 10;//assign value
+
+        let name="Jay";//declaration and assign value
+        const text = "<p style='color:blue;'> Name: " + name + "</p>";
+        document.write(text);
+        </script>
+        <h2>Math operators</h2>
+        <script>
+            let num1=10;
+            let num2=15;
+            // math operators: + - / *
+            document.write(num1 / num2);
+
+        </script>
+
+        <h2>Relational and Logical operators</h2>
+        <script>
+            // == < > <= >= !=
+            // AND && OR || NOT !
+            let comparison1 = (10==10) && (5==6); //false
+            let comparison2 = (10==10) || (5==6); //true
+            document.write(comparison1);
+        </script>
+
+        <h2>Reading and writting</h2>
+        <script>
+            //let userName = prompt("Enter your name");
+            if(userName=="Jay"){
+                document.write("Welcome to the system" + userName);
+            }else{
+                document.write("Invalid username");
+            }
+        </script>
+
+        <h2>If-else statement</h2>
+        <script>
+            if(2>4){
+                document.write("Yes, the condition was true");
+            }else{
+                document.write("The condition was false");
+            }
+
+            let op = prompt("Enter an option: 1)Hello 2)Goodbye");
+            if(op=="1"){
+                console.log("Hello")
+            }
+            else(op=="2"){
+                console.log("Goodbye")
+            }
+        </script>
+        
+        <h2>In-class excercise</h2>
+        <script>
+            let user = "Jay";
+            let email = "jay@email.com";
+            let age = 25;
+            let password="Test1234";
+            let country = "USA";
+            let salary = 10000;
+
+            document.write(`
+                <p>Name: ${user}</p>
+                <p>Email: ${email}</p>
+                <p>Salary(yearly):${salary*12}</p>
+            `)
+        </script>
+
+        <h2>In-class exercise 2</h2>
+        <script>
+            let birthYear = prompt("Enter your birth year:");
+            let futureYear = 2024;
+            
+            let myAge = futureYear-birthyear;
+
+            document.write(
+                "<p> I will be either ${myAge-1} or ${myAge} </p>");
+
+        </script>
+</body>
+</html>
